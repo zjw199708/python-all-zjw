@@ -1,0 +1,17 @@
+name=input('请输入您的姓名')
+numberID=input('请输入您的身份证号')
+age=int(input('请输入您的年龄'))
+sex=input('请输入您的性别')
+height=input('请输入您的身高')
+weight=input('请输入您的体重')
+info='''
+----------个人信息表------------
+姓名：{name}
+年龄：{age}
+身份证号码：{numberID}
+性别：{sex}
+身高：{height}
+体重：{weight}
+------------------------------
+'''
+print(info.format(name=name,age=age,numberID=numberID,sex=sex,height=height,weight=weight))
